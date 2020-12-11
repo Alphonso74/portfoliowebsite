@@ -1,7 +1,9 @@
 import './App.css';
 import React, {Component} from 'react';
-import Navbar from "./Components/UI/Navbar/Navbar";
-import {Route, Switch, withRouter, Redirect} from 'react-router-dom';
+// import Navbar from "./Components/UI/Navbar/Navbar";
+import {Route, Switch, withRouter} from 'react-router-dom';
+// import {Route, Switch, withRouter, Redirect} from 'react-router-dom';
+
 import MainPage from "./Containers/MainPage";
 import LandingPage from "./Containers/LandingPage";
 import Resume from "./Containers/Resume";
@@ -49,4 +51,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(App);

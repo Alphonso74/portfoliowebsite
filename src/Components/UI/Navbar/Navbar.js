@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
 import M from 'materialize-css/dist/js/materialize.min';
 import {NavLink} from "react-router-dom";
-import photo from '../../../asset/alphonsopicture.jpg';
+// import photo from '../../../asset/alphonsopicture.jpg';
 class Navbar extends Component{
 
 
     componentDidMount() {
 
-        document.addEventListener('DOMContentLoaded', function() {
+
             const elems = document.querySelectorAll('.sidenav');
             const instances = M.Sidenav.init(elems, {});
-        });
+
 
     }
 
@@ -22,14 +22,11 @@ class Navbar extends Component{
 
 
                 <nav>
-                    <div className="nav-wrapper grey">
+                    <div className="nav-wrapper black">
 
-
-                        <i  className="brand-logo">
-                            Alphonso's
-                        </i>
-                        <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i
-                            className="material-icons">menu</i></a>
+                        <i className="brand-logo">Alphonso's</i>
+                        <a href="/" data-target="mobile-demo" className="sidenav-trigger">
+                        <i className="material-icons">menu</i></a>
                         <ul className="right hide-on-med-and-down">
                             <div className="black-text">
                                 <li><NavLink to='/mainpage' exact >Home</NavLink></li>

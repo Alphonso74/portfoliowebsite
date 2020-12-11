@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2055e86-795f-4322-8151-b81d5cd67619" name="Default Changelist" comment="" />
+    <list default="true" id="f2055e86-795f-4322-8151-b81d5cd67619" name="Default Changelist" comment="Landing Page">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/MainPageCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/ball.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/car.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/car2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/cv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/disk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/dog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/gradpic.HEIC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/interview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/jamesHarden.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/mountain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/mountain2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/newpic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/newpic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/newpic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/snow.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UI/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainPage.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -31,6 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/asset" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -38,13 +65,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/asset" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/asset" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/Components" />
       <recent name="$PROJECT_DIR$/src/Components/Navigation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/asset" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -101,7 +129,8 @@
       <updated>1607443812695</updated>
       <workItem from="1607443813880" duration="7644000" />
       <workItem from="1607521688079" duration="47000" />
-      <workItem from="1607521735877" duration="7920000" />
+      <workItem from="1607521735877" duration="11127000" />
+      <workItem from="1607617287018" duration="6313000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1607445701734</created>
@@ -115,6 +144,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
