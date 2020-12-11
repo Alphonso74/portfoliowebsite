@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2055e86-795f-4322-8151-b81d5cd67619" name="Default Changelist" comment="Landing Page">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/MainPageCSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/ball.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/car.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/car2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/cv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/disk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/dog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/gradpic.HEIC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/interview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/jamesHarden.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/mountain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/mountain2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/newpic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/newpic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/newpic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/snow.jpg" afterDir="false" />
+    <list default="true" id="f2055e86-795f-4322-8151-b81d5cd67619" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Containers/ResumeCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/github.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/linkedIn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/resume.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/youtube.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UI/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UI/Navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/ContactMe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Resume.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +116,7 @@
       <workItem from="1607443813880" duration="7644000" />
       <workItem from="1607521688079" duration="47000" />
       <workItem from="1607521735877" duration="11127000" />
-      <workItem from="1607617287018" duration="6313000" />
+      <workItem from="1607617287018" duration="18583000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1607445701734</created>
@@ -139,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607445701734</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="landing and main page edits">
+      <created>1607697988101</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607697988101</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="landing and main page edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="landing and main page edits" />
   </component>
 </project>

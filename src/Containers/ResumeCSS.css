@@ -1,0 +1,10 @@
+
+.center .materialboxed,
+.center-align .materialboxed {
+    margin: auto; position: relative;
+}
+
+.center-align {
+
+    align-items: center;
+}
