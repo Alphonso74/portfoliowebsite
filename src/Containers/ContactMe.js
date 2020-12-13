@@ -6,6 +6,26 @@ class ContactMe extends Component {
         // console.log("Poop");
     }
 
+
+    state = {
+        first_name: 'efwewf',
+        last_name: 'fwfwf',
+        message: 'fwefw'
+
+
+    };
+
+    sendEmail = () => {
+
+        // emailjs.send('alphonso6809@gmail.com', 'service_uhk71fn', "poop") //Insert your email service ID and email template ID
+        //     .then(function(response) {
+        //         console.log('SUCCESS!', response.status, response.text);
+        //     }, function(error) {
+        //         console.log('FAILED...', error);
+        //     });
+
+    };
+
     render() {
 
         return (
@@ -48,13 +68,13 @@ class ContactMe extends Component {
 
                             <div className="row">
                                 <div className="input-field col s12">
-                                    <textarea id="message" type="text" className="validate materialize-textarea"/>
+                                    <textarea id="message" className="validate materialize-textarea"/>
                                         <label htmlFor="message">Message</label>
                                 </div>
                             </div>
 
-                            <a className="waves-effect waves-light btn-large"><i
-                                className="material-icons right">send</i>Submit</a>
+                            <button onClick={this.sendEmail} className="waves-effect waves-light btn-large"><i
+                                className="material-icons right">send</i>Submit</button>
 
                         </form>
                     </div>

@@ -23,20 +23,21 @@ class MainPage extends Component {
 
     }
 
+    executeScroll = () => window.scrollTo(0, 0);
+
+
     render() {
 
         return (
             <div>
 
-                <Navbar/>
+                <Navbar />
 
-                <div className="section grey">
+                <div className="section ">
                     <div className="row container center-align">
                         <div className="col s12 ">
                             <h2 className="header">Welcome To My Website</h2>
-                            <p className="grey-text text-darken-3 lighten-3">Parallax is an effect where the background
-                                content or image in this case, is moved at a different speed than the foreground content
-                                while scrolling.</p>
+                            <p className="grey-text text-darken-3 lighten-3">Take a look around!</p>
 
                             <h4 className="light">My Links</h4>
                             <pre><code className="language-markup col s12">
@@ -54,10 +55,9 @@ class MainPage extends Component {
                                     <img src={github}/>
                                 </div>
                                 <div className="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.</p>
                                 </div>
                                 <div className="card-action">
-                                    <a href="#">Check Out My Projects!</a>
+                                    <a href="https://github.com/Alphonso74">Check Out My Projects!</a>
                                 </div>
                             </div>
                         </div>
@@ -70,10 +70,9 @@ class MainPage extends Component {
                                     <img src={linkedIn}/>
                                 </div>
                                 <div className="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.</p>
                                 </div>
                                 <div className="card-action">
-                                    <a href="#">Lets Connect!</a>
+                                    <a href="https://www.linkedin.com/in/alphonso-mckenzie-a32440189/">Lets Connect!</a>
                                 </div>
                             </div>
                         </div>
@@ -86,10 +85,9 @@ class MainPage extends Component {
                                         <img src={youtube}/>
                                     </div>
                                     <div className="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.</p>
                                     </div>
                                     <div className="card-action">
-                                        <a href="#">Check It Out!</a>
+                                        <a href="https://www.youtube.com/">Check It Out!</a>
                                     </div>
                                 </div>
                             </div>
@@ -128,19 +126,21 @@ class MainPage extends Component {
                 <div className="parallax"><img src={snow}/></div>
             </div>
 
-                <div className="section grey">
+                <div className="section ">
                     <div className="row container">
                         <div className="col s12 ">
                             <h2 className="header">Skills</h2>
                             <p className="grey-text text-darken-3 lighten-3">Listed are some of the development skills I've picked up over the years</p>
 
                             <ul className="collection grey">
-                                <li className="collection-item">Java</li>
-                                <li className="collection-item">React</li>
-                                <li className="collection-item">C++</li>
-                                <li className="collection-item">Android</li>
-                                <li className="collection-item">Firebase</li>
-                                <li className="collection-item">SQL</li>
+                                <li className="collection-item">Java (4 years)</li>
+                                <li className="collection-item">C++ (2 years)</li>
+                                <li className="collection-item">Database Management - SQL/Firebase/Room (2 year)</li>
+                                <li className="collection-item">Web Development – React, JavaScript, HTML (2 years)</li>
+                                <li className="collection-item">Mobile Development – Android, Android Studio (2 year)</li>
+                                <li className="collection-item">.NET (2 months)</li>
+                                <li className="collection-item">MIPS – Assembly Language (2 year)</li>
+
                             </ul>
 
                             <pre><code className="language-markup col s12">
@@ -172,19 +172,15 @@ class MainPage extends Component {
                 <footer className="page-footer black">
                     <div className="container">
                         <div className="row">
-                            <div className="col l6 s12">
-                                <h5 className="white-text">Footer Content</h5>
-                                <p className="grey-text text-lighten-4">You can use rows and columns here to organize
-                                    your footer content.</p>
+                            <div className="col l6 s12 ">
+                                <h5 className="white-text">Is that it?....</h5>
+                                <p className="grey-text text-lighten-4">Check out the blog!</p>
+                                <p className="grey-text text-lighten-4">Send me a message!</p>
                             </div>
-                            <div className="col l4 offset-l2 s12">
-                                <h5 className="white-text">Links</h5>
-                                <ul>
-                                    <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                                    <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                                    <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                                    <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                                </ul>
+                            <div className="col l4 offset-l2 s12 center-align">
+                                <h5 className="white-text">Back To Top</h5>
+                                <button onClick={this.executeScroll} className="waves-effect waves-light btn-large"><i className="material-icons left">arrow_upward</i>Scroll Up</button>
+
                             </div>
                         </div>
                     </div>

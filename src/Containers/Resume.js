@@ -22,11 +22,11 @@ class Resume extends Component {
         return (
             <div>
 
-                <div className="center-align">
+
 
             <Navbar/>
 
-
+                    <div className="center-align">
 
 
                     <div className="card grey materialboxed">
