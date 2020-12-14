@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import Navbar from "../Components/UI/Navbar/Navbar";
+// import Navbar from "../Components/UI/Navbar/Navbar";
 import M from 'materialize-css/dist/js/materialize.min';
-import photo from '../asset/alphonsopicture.jpg';
-import photo1 from '../asset/interview.jpg';
+// import photo from '../asset/alphonsopicture.jpg';
+// import photo1 from '../asset/interview.jpg';
 import photo2 from '../asset/newpic.jpg';
 import photo3 from '../asset/newpic1.jpg';
 import photo4 from '../asset/newpic2.jpg';
-import {Redirect, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class LandingPage extends Component {
 
@@ -36,6 +36,7 @@ class LandingPage extends Component {
                 <ul className="slides">
                     <li>
                         <img
+                            alt=""
                             src={photo3}/>
                             <div className="caption center-align">
                                 <h3>Welcome To My Website!</h3>
@@ -46,6 +47,7 @@ class LandingPage extends Component {
                     </li>
                     <li>
                         <img
+                            alt=""
                             src={photo2}/>
                             <div className="caption left-align">
                                 <h3>Welcome To My Website!</h3>
@@ -59,6 +61,7 @@ class LandingPage extends Component {
                     </li>
                     <li>
                         <img
+                            alt=""
                             src={photo4}/>
                             <div className="caption right-align">
                                 <h3>Welcome To My Website!</h3>

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Navbar from "../Components/UI/Navbar/Navbar";
+
 class ContactMe extends Component {
 
     componentDidMount() {
@@ -16,24 +17,45 @@ class ContactMe extends Component {
     };
 
     sendEmail = () => {
+        // window.event.preventDefault()
+        // console.log("poop");
+        // window.Email.send({
+        //     Host : "smtp.elasticemail.com",
+        //     Username : "alphonso6809@gmail.com",
+        //     Password : "75F92C9087A4CD9D090BC0B701DCF9EE7F9F",
+        //     To : 'alphonso6809@gmail.com',
+        //     From : "alphonso6809@gmail.com",
+        //     Subject : "This is the subject",
+        //     Body : "And this is the body"
+        //
+        // }).then(
+        //     message => alert(message)
+        // );
 
-        // emailjs.send('alphonso6809@gmail.com', 'service_uhk71fn', "poop") //Insert your email service ID and email template ID
-        //     .then(function(response) {
-        //         console.log('SUCCESS!', response.status, response.text);
-        //     }, function(error) {
-        //         console.log('FAILED...', error);
-        //     });
+        const templateParams = {
+            from_name: 'Alphonso Big D Man',
+            message: 'Wazzzzuuuppppp!'
+        };
+
+        window.emailjs.send('service_uhk71fn', 'template_2j2v7a4', templateParams, 'user_rlThFHOxD9FMHRy5Os1E1') //use your Service ID and Template ID
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+            }, function(error) {
+                console.log('FAILED...', error);
+            });
 
     };
 
     render() {
 
         return (
+
+
             <div>
 
                 <Navbar/>
 
-                <div className="section grey">
+                <div className="section grey RussoOne">
                     <div className="row container center-align">
                         <div className="col s12 ">
                             <h2 className="header">Contact Me</h2>
@@ -46,8 +68,8 @@ class ContactMe extends Component {
 
 
                 </div>
-                    <div className="row">
-                        <form className="col s12 center-align">
+                    <div className="row RussoOne">
+                        <form className="col s12 center-align" onSubmit={this.sendEmail}>
                             <div className="row">
                                 <div className="input-field col s12">
                                     <input id="email" type="email" className="validate"/>
@@ -73,7 +95,7 @@ class ContactMe extends Component {
                                 </div>
                             </div>
 
-                            <button onClick={this.sendEmail} className="waves-effect waves-light btn-large"><i
+                            <button className="RussoOne waves-effect waves-light btn-large"><i
                                 className="material-icons right">send</i>Submit</button>
 
                         </form>

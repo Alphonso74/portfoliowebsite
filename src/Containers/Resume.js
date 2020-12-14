@@ -30,7 +30,7 @@ class Resume extends Component {
 
 
                     <div className="card grey materialboxed">
-                <img  className="responsive-img" src={resume} />
+                <img  className="responsive-img" alt="" src={resume} />
 
                     </div>
                 </div>

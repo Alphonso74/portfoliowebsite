@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2055e86-795f-4322-8151-b81d5cd67619" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI/Navbar/NavbarCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Containers/MainPageCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/portfoliowebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfoliowebsite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/UI/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UI/Navbar/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/ContactMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/LandingPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Resume.js" afterDir="false" />
     </list>
@@ -117,7 +116,8 @@
       <workItem from="1607443813880" duration="7644000" />
       <workItem from="1607521688079" duration="47000" />
       <workItem from="1607521735877" duration="11127000" />
-      <workItem from="1607617287018" duration="23655000" />
+      <workItem from="1607617287018" duration="23727000" />
+      <workItem from="1607951889091" duration="5323000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1607445701734</created>
@@ -140,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607723711804</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added to main page, attempt at sending email">
+      <created>1607844583573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607844583573</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +158,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -161,6 +170,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="landing and main page edits" />
     <MESSAGE value="Start of contact page, finished resume page, and additions to main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start of contact page, finished resume page, and additions to main page" />
+    <MESSAGE value="Added to main page, attempt at sending email" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added to main page, attempt at sending email" />
   </component>
 </project>

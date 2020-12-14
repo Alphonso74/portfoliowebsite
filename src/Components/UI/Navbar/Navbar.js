@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import M from 'materialize-css/dist/js/materialize.min';
 import {NavLink} from "react-router-dom";
 // import photo from '../../../asset/alphonsopicture.jpg';
+import './NavbarCSS.css';
 class Navbar extends Component{
 
 
@@ -24,11 +25,11 @@ class Navbar extends Component{
                 <nav>
                     <div className="nav-wrapper black">
 
-                        <i className="brand-logo">Alphonso's</i>
+                        <i className="brand-logo Langar">Alphonso's</i>
                         <a href="/" data-target="mobile-demo" className="sidenav-trigger">
                         <i className="material-icons">menu</i></a>
                         <ul className="right hide-on-med-and-down active">
-                            <div className="black-text">
+                            <div className="black-text Langar">
                                 <li ><NavLink to='/mainpage' exact >Home</NavLink></li>
                                 <li ><NavLink to='/resume' exact >Resume</NavLink></li>
                                 <li ><NavLink to='/blog' exact >Blog</NavLink></li>
