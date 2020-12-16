@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2055e86-795f-4322-8151-b81d5cd67619" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/Navbar/NavbarCSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Containers/MainPageCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/newsnowboarding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/snow2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/UI/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UI/Navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/ContactMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Navbar/NavbarCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UI/Navbar/NavbarCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Resume.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,14 +48,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/asset" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/asset" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/Components" />
       <recent name="$PROJECT_DIR$/src/Components/Navigation" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/asset" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -117,7 +114,7 @@
       <workItem from="1607521688079" duration="47000" />
       <workItem from="1607521735877" duration="11127000" />
       <workItem from="1607617287018" duration="23727000" />
-      <workItem from="1607951889091" duration="5323000" />
+      <workItem from="1607951889091" duration="10225000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1607445701734</created>
@@ -147,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607844583573</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Email functionality working, font changes.">
+      <created>1607983511368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607983511368</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +175,7 @@
     <MESSAGE value="landing and main page edits" />
     <MESSAGE value="Start of contact page, finished resume page, and additions to main page" />
     <MESSAGE value="Added to main page, attempt at sending email" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added to main page, attempt at sending email" />
+    <MESSAGE value="Email functionality working, font changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Email functionality working, font changes." />
   </component>
 </project>

@@ -28,9 +28,9 @@ class Navbar extends Component{
                         <i className="brand-logo Langar">Alphonso's</i>
                         <a href="/" data-target="mobile-demo" className="sidenav-trigger">
                         <i className="material-icons">menu</i></a>
-                        <ul className="right hide-on-med-and-down active">
-                            <div className="black-text Langar">
-                                <li ><NavLink to='/mainpage' exact >Home</NavLink></li>
+                        <ul className="right hide-on-med-and-down ">
+                            <div className="black-text Langar ">
+                                <li className="active" ><NavLink to='/mainpage' exact >Home</NavLink></li>
                                 <li ><NavLink to='/resume' exact >Resume</NavLink></li>
                                 <li ><NavLink to='/blog' exact >Blog</NavLink></li>
                                 <li ><NavLink to='/contact' exact >Contact</NavLink></li>
