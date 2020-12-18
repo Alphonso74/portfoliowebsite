@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'materialize-css/dist/css/materialize.min.css';
 import 'materialize-css/dist/js/materialize';
 import {BrowserRouter} from "react-router-dom";
-
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const app = (

@@ -181,7 +181,7 @@ class MainPage extends Component {
                             </div>
                             <div className="col  s6 center-align">
                                 <h5 className="white-text">Back To Top</h5>
-                                <button onClick={this.executeScroll} className="waves-effect waves-light btn-large RussoOne"><i className="material-icons left">arrow_upward</i>Scroll Up</button>
+                                <button onClick={this.executeScroll} className="waves-effect waves-light btn-large RussoOne grey "><i className="material-icons left">arrow_upward</i>Scroll Up</button>
 
                             </div>
                         </div>

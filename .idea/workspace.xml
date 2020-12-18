@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2055e86-795f-4322-8151-b81d5cd67619" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/Spinner/Spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/Spinner/SpinnerCSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Containers/Blog/Blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Containers/Blog/ShowBlog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Containers/Blog/ShowBlog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/alphonsomckenzie.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI/Spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI/SpinnerCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Containers/Blog/PostCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Containers/Blog/Slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ShortenText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ToText.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UI/Navbar/NavbarCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UI/Navbar/NavbarCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Blog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/ContactMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UI/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Spinner/Spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Spinner/SpinnerCSS.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Blog/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Blog/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Blog/ShowBlog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Blog/ShowBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Blog/ShowBlog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Resume.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToText.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -125,7 +131,7 @@
       <workItem from="1607617287018" duration="23727000" />
       <workItem from="1607951889091" duration="18248000" />
       <workItem from="1608211336824" duration="399000" />
-      <workItem from="1608215359441" duration="2333000" />
+      <workItem from="1608215359441" duration="10187000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1607445701734</created>
@@ -169,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608137901102</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Contact page finished">
+      <created>1608308941721</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608308941721</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +208,7 @@
     <MESSAGE value="Added to main page, attempt at sending email" />
     <MESSAGE value="Email functionality working, font changes." />
     <MESSAGE value="Changes to sections in main page. Added active links." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to sections in main page. Added active links." />
+    <MESSAGE value="Contact page finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact page finished" />
   </component>
 </project>

@@ -29,8 +29,8 @@ class Resume extends Component {
                     <div className="center-align">
 
 
-                    <div className="card grey materialboxed">
-                <img  className="responsive-img" alt="" src={resume} />
+                    <div className="card black ">
+                <img  className="responsive-img materialboxed" alt="" src={resume} />
 
                     </div>
                 </div>

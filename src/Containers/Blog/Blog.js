@@ -1,103 +1,45 @@
-import React, {Component} from 'react';
-import Navbar from "../../Components/UI/Navbar/Navbar";
-import Axios from 'axios';
-import Spinner from "../../Components/UI/Spinner/Spinner";
-import ShowBlog from "./ShowBlog";
+import React from 'react'
 
-class Blog extends Component {
+import axios from 'axios'
 
 
+class Blog extends React.Component {
     state = {
-
-        profile: {
-            ptitle: "",
-            name: "",
-            avtar: "",
-            profileurl: "",
-        },
-        item: [],
-        isloading: true,
-        error: null
-    };
-
-
-    mediumURL =
-        "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@alphonsomckenzieblog";
+        posts: []
+    }
 
 
     componentDidMount() {
-        // console.log("Poop");
+        this.fetchPosts().then(this.setPosts)
+    }
 
-        Axios.get(this.mediumURL)
+    fetchPosts = () => axios.get(`https://cors.now.sh/https://us-central1-aaronklaser-1.cloudfunctions.net/medium?username=@alphonsomckenzieblog`)
 
-            .then((data) => {
-                // console.log(data.data)
-                const avatar = data.data.feed.image;
-                const profileLink = data.data.feed.link;
-                const res = data.data.items; //This is an array with the content. No feed, no info about author etc..
-                const posts = res.filter(item => item.categories.length > 0);
-
-                const title = data.data.feed.title;
-
-                this.setState(
-                    (pre) => ({
-                        profile: {
-                            ...pre.profile,
-                            ptitle: title,
-                            profileurl: profileLink,
-                            avtar: avatar,
-
-                        },
-                        item: posts,
-                        isloading: false
-                    }),
-                    () => {
-                        console.log(this.state);
-                    }
-                );
-                console.log(data, res);
-            })
-            .catch((e) => {
-                this.setState({ error: e.toJSON() });
-                console.log(e);
-            });
+    setPosts = response => {
+        this.setState({
+            posts: response
+        })
     }
 
     render() {
-
-        let post;
-
-        if (this.state.item) {
-            post = this.state.item.map((post, index) => (
-                <ShowBlog key={index} {...post} {...this.state.profile} {...index} />
-            ))
-        }
-        if (this.state.isloading) {
-            post = <Spinner />
-        }
-        if (this.state.error) {
-            let error = this.state.error.code ? this.state.error.code : this.state.error.name;
-            let errorMsg = this.state.error.message;
-            post = (
-                <>
-                    <h2 className="red center1">{error}</h2>
-                    <p className="errorMessage center1">{errorMsg}</p>
-                </>
-            );
-        }
         return (
             <div>
-
-                <Navbar/>
-
-                <h1>Blog Page</h1>
-
-                {post}
-
-
+                <div color="is-dark" title="Medium">
+                    Medium is where I ramble and rant and tell stories. I orginally was going to use it as a coding blog, I don't like having to use Gist for all my code snippets. So I created this site.
+                    <br /><br />
+                    <a className="button is-inverted is-outlined" href="https://medium.com/@alphonsomckenzieblog" target="_blank">
+                        View My Medium
+                        <span className="icon" style={{ marginLeft: 5 }}>
+            </span>
+                    </a>
+                </div>
+                <div>
+                    <pre>{JSON.stringify(this.state.posts, null, 2)}</pre>
+                </div>
             </div>
-        );
+        )
     }
 }
 
-export default Blog;
+export default Blog
+

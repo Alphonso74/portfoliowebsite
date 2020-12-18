@@ -1,9 +1,8 @@
+
 import React from 'react';
-
-import  './SpinnerCSS.css';
-
+import './SpinnerCSS.css'
 const Spinner = () => (
-    <div className="centerAlign">
+    <div className="center">
         <div className="Spinnerborder"></div>
         <h2>Loading ...</h2>
 
