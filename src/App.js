@@ -7,7 +7,7 @@ import {Route, Switch, withRouter} from 'react-router-dom';
 import MainPage from "./Containers/MainPage";
 import LandingPage from "./Containers/LandingPage";
 import Resume from "./Containers/Resume";
-import Blog from "./Containers/Blog";
+import Blog from "./Containers/Blog/Blog";
 import ContactMe from "./Containers/ContactMe";
 
 class App extends Component {
