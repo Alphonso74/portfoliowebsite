@@ -1,45 +1,38 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import BlogTile from './BlogTile';
+import Navbar from "../../Components/UI/Navbar/Navbar";
+// import "./BlogCSS.css";
 
-import axios from 'axios'
+const Blog = () => {
+    const rss2json = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40alphonsomckenzieblog";
+    const [myBlog, setMyBlog] = useState([]);
 
+    useEffect(() => {
+        fetch(rss2json)
+            .then(res => res.json())
+            .then(data => {
+                setMyBlog(data)
+                // console.log(data)
+            })
+    }, [rss2json]);
 
-class Blog extends React.Component {
-    state = {
-        posts: []
-    }
-
-
-    componentDidMount() {
-        this.fetchPosts().then(this.setPosts)
-    }
-
-    fetchPosts = () => axios.get(`https://cors.now.sh/https://us-central1-aaronklaser-1.cloudfunctions.net/medium?username=@alphonsomckenzieblog`)
-
-    setPosts = response => {
-        this.setState({
-            posts: response
+    function displayBlogs() {
+        console.log(myBlog);
+        return myBlog.items && myBlog.items.map(blog => {
+            return blog.categories.length > 0 && <BlogTile key={blog.pubDate} blogData={blog} />
         })
     }
 
-    render() {
-        return (
-            <div>
-                <div color="is-dark" title="Medium">
-                    Medium is where I ramble and rant and tell stories. I orginally was going to use it as a coding blog, I don't like having to use Gist for all my code snippets. So I created this site.
-                    <br /><br />
-                    <a className="button is-inverted is-outlined" href="https://medium.com/@alphonsomckenzieblog" target="_blank">
-                        View My Medium
-                        <span className="icon" style={{ marginLeft: 5 }}>
-            </span>
-                    </a>
-                </div>
-                <div>
-                    <pre>{JSON.stringify(this.state.posts, null, 2)}</pre>
-                </div>
-            </div>
-        )
-    }
+    return (
+        <div>
+            <Navbar/>
+
+        <div className="BlogsContainer">
+            {displayBlogs()}
+        </div>
+
+        </div>
+    );
 }
 
-export default Blog
-
+export default Blog;
