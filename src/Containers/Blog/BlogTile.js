@@ -33,21 +33,36 @@ const BlogTile = (props) => {
     }
 
     function blogPost() {
-        return <a target="_blank" rel="noopener noreferrer" href={`${link}`}>
-            <div className="ImageContainer">
-                <img src={`${thumbnail}`} className="Image" alt={truncateText(cleanTitle(title), 0, 60)}></img>
+        return (
+            <div className="col s12 center RussoOne">
+
+                <div className="card  ">
+
+                    <div className="card-title">
+                    <h3>{cleanTitle(title)}</h3>
+                        <div/>
+
+                    <div className="col s6 ">
+                <div className="card-image">
+                <img src={`${thumbnail}`} className="Image" alt={cleanTitle(title)}></img>
             </div>
-            <div className="TDContainer">
-                <h3>{truncateText(cleanTitle(title), 0, 60)}</h3><br />
-                <p>{truncateText(toText(content), 48, 300) + "..."}</p><br />
+                    </div>
+                    <div className="col s6 ">
+
+                    <div className="card-content">
+                <p>{toText(content)}</p>
                 <h4>{convertDate(pubDate)}</h4>
             </div>
-        </a>
+                    </div>
+
+                    </div>
+            </div>
+        </div>)
 
     }
 
     return (
-        <div className="PostContainer">
+        <div >
             {blogPost()}
         </div>
     );

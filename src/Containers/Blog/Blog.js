@@ -19,7 +19,7 @@ const Blog = () => {
     function displayBlogs() {
         console.log(myBlog);
         return myBlog.items && myBlog.items.map(blog => {
-            return blog.categories.length > 0 && <BlogTile key={blog.pubDate} blogData={blog} />
+            return <BlogTile key={blog.pubDate} blogData={blog} />
         })
     }
 
