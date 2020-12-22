@@ -34,7 +34,7 @@ class MainPage extends Component {
 
                 <Navbar />
 
-                <div className="section">
+                <div className="section grey">
                     <div className="row container center-align">
                         <div className="col s12 ">
 
@@ -128,7 +128,7 @@ class MainPage extends Component {
                 <div className="parallax"><img src={snow} alt=""/></div>
             </div>
 
-                <div className="section RussoOne">
+                <div className="section RussoOne grey">
                     <div className="row container">
                         <div className="col s12 ">
                             <h2 className="header">Skills</h2>
@@ -163,9 +163,76 @@ class MainPage extends Component {
                             {/*    content or image in this case, is moved at a different speed than the foreground content*/}
                             {/*    while scrolling.</p>*/}
 
-                            <h4 className="light">Coming Soon......</h4>
-                            <pre><code className="language-markup col s12">
-        </code></pre>
+                            <div className="col s12 ">
+                                <div className="card-panel grey lighten-5 z-depth-1">
+                                    <div className="row valign-wrapper">
+                                        <div className="col s2">
+                                            <i className="material-icons medium">sports_basketball</i>
+                                        </div>
+                                        <div className="col s10">
+              <span className="black-text">
+                The game of Basketball has been near and dear to my heart from a very young age. This game has taught me many things, and has given me the opportunity to meet and see many people.
+                  Basketball has taught me the greatest lesson of my entire life..."Practice Makes Perfect".
+              </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col s12 ">
+                                <div className="card-panel grey lighten-5 z-depth-1">
+                                    <div className="row valign-wrapper">
+                                        <div className="col s2">
+                                            <i className="material-icons medium">snowboarding</i>
+                                        </div>
+                                        <div className="col s10">
+              <span className="black-text">
+                One of my newest hobbies is Snowboarding and I LOVE IT. I love going to new resorts and testing my skills each time I'm on the mountain.
+                  The 2020/2021 season is going to be one to remember.
+              </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="col s12 ">
+                                <div className="card-panel grey lighten-5 z-depth-1">
+                                    <div className="row valign-wrapper">
+                                        <div className="col s2">
+                                            <i className="material-icons medium">library_music</i>
+                                        </div>
+                                        <div className="col s10">
+              <span className="black-text">
+                Music is the first hobby/interest I can remember that I've ever sought to follow and involve myself in on my own.
+                  I remember I was in 3rd or 4th grade when I told my parents I wanted to play a musical instrument. That single decision led me
+                  to playing the violin for the next 6 years.
+              </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div className="col s12 ">
+                                <div className="card-panel grey lighten-5 z-depth-1">
+                                    <div className="row valign-wrapper">
+                                        <div className="col s2">
+                                            <i className="material-icons medium">sports_esports</i>
+                                        </div>
+                                        <div className="col s10">
+              <span className="black-text">
+                I think the first gaming console I've ever owned was a Sega Dreamcast. I had a Looney Tunes game called Looney Tunes: Space Race.
+                  I remember staying up all night at my grandmothers home in New York and playing it until I passed out. I have since owned a Xbox, Xbox 360,
+                  Xbox One, Nintendo Wii, and a Playstation 2.
+              </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

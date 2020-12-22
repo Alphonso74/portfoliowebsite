@@ -144,8 +144,8 @@ class ContactMe extends Component {
                     <div className="row container center-align">
                         <div className="col s12 ">
                             <h2 className="header">Contact Me</h2>
-                            <p className="grey-text text-darken-3 lighten-3">If you want to get in touch with me send me a message!</p>
-                            <p className="grey-text text-darken-3 lighten-3">This will go directly to my email, and I will get back in touch with you.</p>
+                            <p className="black-text text-darken-3 lighten-3">If you want to get in touch with me send me a message!</p>
+                            <p className="black-text text-darken-3 lighten-3">This will go directly to my email, and I will get back in touch with you.</p>
 
 
                         </div>
@@ -157,26 +157,26 @@ class ContactMe extends Component {
                         <form className="col s12 center-align" id="formyform" onSubmit={this.sendEmail}>
                             <div className="row">
                                 <div className="input-field col s12">
-                                    <input id="email" type="email" required=" " className="validate" onChange={this.emailChange}/>
-                                        <label htmlFor="email">Email</label>
+                                    <input id="email" type="email" required=" " className="validate " onChange={this.emailChange}/>
+                                        <label htmlFor="email" className="black-text">Email</label>
                                 </div>
                             </div>
 
                             <div className="row">
                                 <div className="input-field col s6">
                                     <input id="first_name" type="text" required=" " className="validate" onChange={this.firstNameChange}/>
-                                        <label htmlFor="first_name">First Name</label>
+                                        <label htmlFor="first_name" className="black-text">First Name</label>
                                 </div>
                                 <div className="input-field col s6">
                                     <input id="last_name" type="text" className="validate" required=" " onChange={this.lastNameChange}/>
-                                        <label htmlFor="last_name">Last Name</label>
+                                        <label htmlFor="last_name" className="black-text">Last Name</label>
                                 </div>
                             </div>
 
                             <div className="row">
                                 <div className="input-field col s12">
                                     <textarea id="message" className="validate materialize-textarea" required=" " onChange={this.messageChange}/>
-                                        <label htmlFor="message">Message</label>
+                                        <label htmlFor="message" className="black-text">Message</label>
                                 </div>
                             </div>
 

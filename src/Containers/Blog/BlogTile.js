@@ -1,9 +1,9 @@
 import React from 'react';
-// import './BlogCSS.css';
+import './BlogCSS.css';
 
 const BlogTile = (props) => {
 
-    console.log("poop");
+    // console.log("poop");
 
     const { title, link, thumbnail, content, pubDate } = props.blogData;
 
@@ -27,20 +27,23 @@ const BlogTile = (props) => {
         let dateArray = date.slice(0, 10).split("-")
         let year = dateArray.shift();
         dateArray.push(year)
-        console.log(date)
-        console.log("poop");
+        // console.log(date)
+        // console.log("poop");
         return `Published: ${dateArray.join("/")}`;
     }
 
     function blogPost() {
-        return (
-            <div className="col s12 center RussoOne">
+        return (<div className="row s12 ">
+            <div className="col s12 center RussoOne ">
+
+
 
                 <div className="card  ">
 
+
                     <div className="card-title">
                     <h3>{cleanTitle(title)}</h3>
-                        <div/>
+
 
                     <div className="col s6 ">
                 <div className="card-image">
@@ -50,13 +53,14 @@ const BlogTile = (props) => {
                     <div className="col s6 ">
 
                     <div className="card-content">
-                <p>{toText(content)}</p>
+                <h6>{toText(content)}</h6>
                 <h4>{convertDate(pubDate)}</h4>
             </div>
                     </div>
 
                     </div>
             </div>
+                </div>
         </div>)
 
     }

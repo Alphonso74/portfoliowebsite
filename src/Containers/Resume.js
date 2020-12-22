@@ -28,8 +28,13 @@ class Resume extends Component {
 
                     <div className="center-align">
 
+                        <div className="section grey RussoOne">
 
-                    <div className="card black ">
+                            <h1>My Resume</h1>
+
+                        </div>
+
+                    <div className="card ">
                 <img  className="responsive-img materialboxed" alt="" src={resume} />
 
                     </div>

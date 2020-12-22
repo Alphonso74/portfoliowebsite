@@ -27,9 +27,15 @@ const Blog = () => {
         <div>
             <Navbar/>
 
-        <div className="BlogsContainer">
-            {displayBlogs()}
+        <div className=" section grey center-align RussoOne ">
+            <h1>My Medium Posts</h1>
+            <br/>
         </div>
+
+            <div >
+            {displayBlogs()}
+            </div>
+
 
         </div>
     );
