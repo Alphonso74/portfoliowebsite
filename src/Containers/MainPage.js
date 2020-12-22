@@ -118,6 +118,8 @@ class MainPage extends Component {
                             <h2 className="header">About Me</h2>
                             <p className="grey-text text-darken-3 lighten-3">Hi! I'm a recent Computer Science graduate from Penn State University, and an incoming Software Engineer at Accenture Federal Services.</p>
                             <p className="grey-text text-darken-3 lighten-3">Home: Ellicott City, Maryland</p>
+                            <p className="grey-text text-darken-3 lighten-3">University: Pennsylvania State University</p>
+                            <p className="grey-text text-darken-3 lighten-3">Bachelors Degree: Computer Science</p>
 
                         </div>
                     </div>
@@ -166,10 +168,10 @@ class MainPage extends Component {
                             <div className="col s12 ">
                                 <div className="card-panel grey lighten-5 z-depth-1">
                                     <div className="row valign-wrapper">
-                                        <div className="col s2">
+                                        <div className="col s4 center-align">
                                             <i className="material-icons medium">sports_basketball</i>
                                         </div>
-                                        <div className="col s10">
+                                        <div className="col s8 center-align">
               <span className="black-text">
                 The game of Basketball has been near and dear to my heart from a very young age. This game has taught me many things, and has given me the opportunity to meet and see many people.
                   Basketball has taught me the greatest lesson of my entire life..."Practice Makes Perfect".
@@ -182,10 +184,10 @@ class MainPage extends Component {
                             <div className="col s12 ">
                                 <div className="card-panel grey lighten-5 z-depth-1">
                                     <div className="row valign-wrapper">
-                                        <div className="col s2">
+                                        <div className="col s4 center-align">
                                             <i className="material-icons medium">snowboarding</i>
                                         </div>
-                                        <div className="col s10">
+                                        <div className="col s8 center-align">
               <span className="black-text">
                 One of my newest hobbies is Snowboarding and I LOVE IT. I love going to new resorts and testing my skills each time I'm on the mountain.
                   The 2020/2021 season is going to be one to remember.
@@ -199,10 +201,10 @@ class MainPage extends Component {
                             <div className="col s12 ">
                                 <div className="card-panel grey lighten-5 z-depth-1">
                                     <div className="row valign-wrapper">
-                                        <div className="col s2">
+                                        <div className="col s4 center-align">
                                             <i className="material-icons medium">library_music</i>
                                         </div>
-                                        <div className="col s10">
+                                        <div className="col s8 center-align">
               <span className="black-text">
                 Music is the first hobby/interest I can remember that I've ever sought to follow and involve myself in on my own.
                   I remember I was in 3rd or 4th grade when I told my parents I wanted to play a musical instrument. That single decision led me
@@ -219,10 +221,10 @@ class MainPage extends Component {
                             <div className="col s12 ">
                                 <div className="card-panel grey lighten-5 z-depth-1">
                                     <div className="row valign-wrapper">
-                                        <div className="col s2">
+                                        <div className="col s4 center-align">
                                             <i className="material-icons medium">sports_esports</i>
                                         </div>
-                                        <div className="col s10">
+                                        <div className="col s8 center-align">
               <span className="black-text">
                 I think the first gaming console I've ever owned was a Sega Dreamcast. I had a Looney Tunes game called Looney Tunes: Space Race.
                   I remember staying up all night at my grandmothers home in New York and playing it until I passed out. I have since owned a Xbox, Xbox 360,

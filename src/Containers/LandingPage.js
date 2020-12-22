@@ -39,34 +39,34 @@ class LandingPage extends Component {
                             alt=""
                             src={photo3}/>
                             <div className="caption center-align">
-                                <h3>Welcome To My Website!</h3>
+                                <h2 className="black-text RussoOne">Welcome To My Website!</h2>
                                 {/*<h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>*/}
-                                <Link to="/mainpage" className="waves-effect waves-light btn-large"><i
+                                <Link to="/mainpage" className="waves-effect waves-light btn-large white black-text RussoOne hoverable"><i
                                     className="material-icons right">whatshot</i>Enter</Link>
                             </div>
                     </li>
-                    <li>
-                        <img
-                            alt=""
-                            src={photo2}/>
-                            <div className="caption left-align">
-                                <h3>Welcome To My Website!</h3>
+                    {/*<li>*/}
+                    {/*    <img*/}
+                    {/*        alt=""*/}
+                    {/*        src={photo2}/>*/}
+                    {/*        <div className="caption left-align">*/}
+                    {/*            <h3>Welcome To My Website!</h3>*/}
 
-                                <Link to="/mainpage" className="waves-effect waves-light btn-large"><i
-                                    className="material-icons right">whatshot</i>Enter</Link>
+                    {/*            <Link to="/mainpage" className="waves-effect waves-light btn-large"><i*/}
+                    {/*                className="material-icons right">whatshot</i>Enter</Link>*/}
 
-                                {/*<h3>Left Aligned Caption</h3>*/}
-                                {/*<h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>*/}
-                            </div>
-                    </li>
+                    {/*            /!*<h3>Left Aligned Caption</h3>*!/*/}
+                    {/*            /!*<h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>*!/*/}
+                    {/*        </div>*/}
+                    {/*</li>*/}
                     <li>
                         <img
                             alt=""
                             src={photo4}/>
                             <div className="caption right-align">
-                                <h3>Welcome To My Website!</h3>
+                                <h2 className="black-text RussoOne">Welcome To My Website!</h2>
 
-                                <Link to="/mainpage" className="waves-effect waves-light btn-large"><i
+                                <Link to="/mainpage" className="waves-effect waves-light btn-large white black-text RussoOne hoverable"><i
                                     className="material-icons right">whatshot</i>Enter</Link>
                                 {/*<h3>Right Aligned Caption</h3>*/}
                                 {/*<h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>*/}
