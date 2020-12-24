@@ -25,7 +25,7 @@ class Navbar extends Component{
                 <nav>
                     <div className="nav-wrapper black">
 
-                        <i className="brand-logo Langar">Alphonso's</i>
+                        <i className="brand-logo Langar">AM</i>
                         <a href="/" data-target="mobile-demo" className="sidenav-trigger">
                         <i className="material-icons">menu</i></a>
                         <ul className="right hide-on-med-and-down ">
@@ -43,7 +43,7 @@ class Navbar extends Component{
                     </div>
                 </nav>
 
-                <ul className="sidenav sidenav-close" id="mobile-demo">
+                <ul className="sidenav sidenav-close grey" id="mobile-demo">
                     <li><NavLink to='/mainpage' exact >Home</NavLink></li>
                     <li><NavLink to='/resume' exact >Resume</NavLink></li>
                     <li><NavLink to='/blog' exact >Blog</NavLink></li>

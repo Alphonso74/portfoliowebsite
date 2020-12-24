@@ -47,14 +47,21 @@ const BlogTile = (props) => {
 
                     <div className="row s12 ">
                 <div className="card-image">
-                <img src={`${thumbnail}`} className="Image" alt={cleanTitle(title)}></img>
+                <img src={`${thumbnail}`} className="Image"  alt={cleanTitle(title)}></img>
             </div>
                     </div>
                     <div className="row s12 ">
 
                     <div className="card-content Langar">
                 <h6>{toText(content)}</h6>
-                <h4>{convertDate(pubDate)}</h4>
+                        <div className="row s12">
+
+                            <h5>{convertDate(pubDate)}</h5>
+
+
+
+
+                        </div>
             </div>
                     </div>
 

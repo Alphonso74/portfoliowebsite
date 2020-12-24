@@ -98,8 +98,8 @@ class MainPage extends Component {
                 </div>
                 </div>
 
-                <div className="parallax-container">
-                    <div className="parallax"><img src={car2} alt={"James Harden"}/></div>
+                <div className="parallax-container ">
+                    <div className="parallax "><img src={car2} alt={"James Harden"}/></div>
                 </div>
 
 
