@@ -34,7 +34,7 @@ const BlogTile = (props) => {
 
     function blogPost() {
         return (<div className="row s12 ">
-            <div className="col s12 center RussoOne ">
+            <div className="col s12 center  ">
 
 
 
@@ -42,17 +42,17 @@ const BlogTile = (props) => {
 
 
                     <div className="card-title">
-                    <h3>{cleanTitle(title)}</h3>
+                    <h3 className="RussoOne">{cleanTitle(title)}</h3>
 
 
-                    <div className="col s6 ">
+                    <div className="row s12 ">
                 <div className="card-image">
                 <img src={`${thumbnail}`} className="Image" alt={cleanTitle(title)}></img>
             </div>
                     </div>
-                    <div className="col s6 ">
+                    <div className="row s12 ">
 
-                    <div className="card-content">
+                    <div className="card-content Langar">
                 <h6>{toText(content)}</h6>
                 <h4>{convertDate(pubDate)}</h4>
             </div>

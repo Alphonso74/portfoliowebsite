@@ -27,8 +27,8 @@ const Blog = () => {
         <div>
             <Navbar/>
 
-        <div className=" section grey center-align RussoOne ">
-            <h1>My Medium Posts</h1>
+        <div className=" section grey center-align  ">
+            <h1 className="RussoOne">My Medium Posts</h1>
             <br/>
         </div>
 

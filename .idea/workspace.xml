@@ -4,7 +4,8 @@
     <list default="true" id="f2055e86-795f-4322-8151-b81d5cd67619" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Blog/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Blog/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Blog/BlogTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Blog/BlogTile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainPage.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,7 +115,7 @@
       <workItem from="1607617287018" duration="23727000" />
       <workItem from="1607951889091" duration="18248000" />
       <workItem from="1608211336824" duration="399000" />
-      <workItem from="1608215359441" duration="27273000" />
+      <workItem from="1608215359441" duration="27981000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1607445701734</created>
@@ -193,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608666313562</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Possibly finished...waiting for json to update blog">
+      <created>1608673802678</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608673802678</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +232,7 @@
     <MESSAGE value="Christian take a look at this commit...Blog attempt" />
     <MESSAGE value="Updated to blog.....json not updating...bruh" />
     <MESSAGE value="Waiting on Blog to update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Waiting on Blog to update" />
+    <MESSAGE value="Possibly finished...waiting for json to update blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Possibly finished...waiting for json to update blog" />
   </component>
 </project>

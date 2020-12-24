@@ -118,7 +118,7 @@ class MainPage extends Component {
                             <h2 className="header">About Me</h2>
                             <p className="grey-text text-darken-3 lighten-3">Hi! I'm a recent Computer Science graduate from Penn State University, and an incoming Software Engineer at Accenture Federal Services.</p>
                             <p className="grey-text text-darken-3 lighten-3">Home: Ellicott City, Maryland</p>
-                            <p className="grey-text text-darken-3 lighten-3">University: Pennsylvania State University</p>
+                            <p className="grey-text text-darken-3 lighten-3">Education: Pennsylvania State University</p>
                             <p className="grey-text text-darken-3 lighten-3">Bachelors Degree: Computer Science</p>
 
                         </div>
