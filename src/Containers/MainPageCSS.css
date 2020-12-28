@@ -4,9 +4,16 @@
 }
 
 
-nav{
-    background-color: transparent !important;
+/*nav{*/
+/*    background-color: transparent !important;*/
+/*}*/
+/*.nav-wrapper a{*/
+/*    color: #aaa !important;*/
+/*}*/
+
+@media only screen and (max-width: 600px) {
+    .parallax-container {
+        height: 150px;
+    }
 }
-.nav-wrapper a{
-    color: #aaa !important;
-}
+

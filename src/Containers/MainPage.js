@@ -4,7 +4,7 @@ import car2 from '../asset/car2.jpg';
 import snow from '../asset/snow2.jpg';
 import ball from '../asset/ball.jpg';
 // import alphonso from '../asset/jamesHarden.jpg';
-// import MainPageCSS from './MainPageCSS.css';
+import './MainPageCSS.css';
 import github from '../asset/github.jpeg';
 import linkedIn from '../asset/linkedIn.jpg';
 import youtube from '../asset/youtube.png'
@@ -56,11 +56,11 @@ class MainPage extends Component {
                                 <div className="card-image">
                                     <img src={github} alt=""/>
                                 </div>
-                                <div className="card-content">
+                                <div className="card-content center-align">
+                                    <a  href="https://github.com/Alphonso74">My Projects!</a>
+
                                 </div>
-                                <div className="card-action center-align">
-                                    <a href="https://github.com/Alphonso74">My Projects!</a>
-                                </div>
+
                             </div>
                         </div>
 
@@ -71,11 +71,11 @@ class MainPage extends Component {
                                 <div className="card-image">
                                     <img src={linkedIn} alt=""/>
                                 </div>
-                                <div className="card-content">
+                                <div className="card-content center-align">
+                                    <a className="center-align" href="https://www.linkedin.com/in/alphonso-mckenzie-a32440189/">Lets Connect!</a>
+
                                 </div>
-                                <div className="card-action center-align">
-                                    <a href="https://www.linkedin.com/in/alphonso-mckenzie-a32440189/">Lets Connect!</a>
-                                </div>
+
                             </div>
                         </div>
 
@@ -86,11 +86,11 @@ class MainPage extends Component {
                                     <div className="card-image">
                                         <img src={youtube} alt=""/>
                                     </div>
-                                    <div className="card-content">
+                                    <div className="card-content center-align">
+                                        <a className="center-align" href="https://www.youtube.com/">My Videos!</a>
+
                                     </div>
-                                    <div className="card-action center-align">
-                                        <a href="https://www.youtube.com/">My Videos!</a>
-                                    </div>
+
                                 </div>
                             </div>
 
@@ -104,9 +104,11 @@ class MainPage extends Component {
 
 
                 <div className="section blue">
-                    <div className="row valign-wrapper container">
+                    <div className="col  container">
 
+                        <h1 className=" row s12 RussoOne center-align">About Me</h1>
 
+                        <div className="row s12 RussoOne">
                             <div className="col s6 ">
 
                                     <img className="circle responsive-img" src={photo3} alt=""/>
@@ -115,14 +117,18 @@ class MainPage extends Component {
 
 
                         <div className="col s6 RussoOne center-align">
-                            <h2 className="header">About Me</h2>
+
+
                             <p className="grey-text text-darken-3 lighten-3">Hi! I'm a recent Computer Science graduate from Penn State University, and an incoming Software Engineer at Accenture Federal Services.</p>
                             <p className="grey-text text-darken-3 lighten-3">Home: Ellicott City, Maryland</p>
                             <p className="grey-text text-darken-3 lighten-3">Education: Pennsylvania State University</p>
                             <p className="grey-text text-darken-3 lighten-3">Bachelors Degree: Computer Science</p>
+                        </div>
 
                         </div>
                     </div>
+
+
                 </div>
 
 
@@ -250,7 +256,7 @@ class MainPage extends Component {
                             </div>
                             <div className="col  s6 center-align">
                                 <h5 className="white-text">Back To Top</h5>
-                                <button onClick={this.executeScroll} className="waves-effect waves-light btn-large RussoOne grey "><i className="material-icons left">arrow_upward</i>Scroll Up</button>
+                                <button onClick={this.executeScroll} className="waves-effect waves-light btn-large RussoOne grey ">To Top</button>
 
                             </div>
                         </div>
