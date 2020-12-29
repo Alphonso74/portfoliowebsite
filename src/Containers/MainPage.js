@@ -11,6 +11,7 @@ import youtube from '../asset/youtube.png'
 import photo3 from '../asset/newpic1.jpg';
 import M from 'materialize-css/dist/js/materialize.min';
 import './MainPageCSS.css';
+import {Redirect} from "react-router-dom";
 
 class MainPage extends Component {
 
@@ -26,6 +27,10 @@ class MainPage extends Component {
 
     executeScroll = () => window.scrollTo(0, 0);
 
+    // Github = () => {
+    //
+    //     return <Redirect to="https://github.com/Alphonso74"/>
+    // }
 
     render() {
 
@@ -38,14 +43,148 @@ class MainPage extends Component {
 
                 <Navbar />
 
+
+
+
                 <div className="section grey">
                     <div className="row container center-align">
                         <div className="col s12 ">
 
                             <h2 className="header RussoOne">Welcome To My Website</h2>
-                            <p className="grey-text text-darken-3 lighten-3 RussoOne">Take a look around!</p>
+                            <h5 className="grey-text text-darken-3 lighten-3 RussoOne">Take a look around!</h5>
 
-                            <h4 className="light RussoOne">My Links</h4>
+        {/*                    <h4 className="light RussoOne">My Links</h4>*/}
+        {/*                    <pre><code className="language-markup col s12">*/}
+        {/*</code></pre>*/}
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="section blue">
+                    <div className="col  container">
+
+                        <h1 className=" row s12 RussoOne center-align">About Me</h1>
+
+                        <div className="row s12 RussoOne">
+                            <div className="col s6 ">
+
+                                <img className="circle responsive-img" src={photo3} alt=""/>
+
+                            </div>
+
+
+                            <div className="col s6 RussoOne center-align ">
+
+
+                                <p className=" text-darken-3">Home: Ellicott City, Maryland</p>
+                                <p className=" text-darken-3 ">Education: Pennsylvania State University</p>
+                                <p className=" text-darken-3 ">Bachelors Degree: Computer Science</p>
+                                <p className=" text-darken-3 ">Hi! I'm a recent Computer Science graduate from Penn State University, and an incoming Software Engineer at Accenture Federal Services.</p>
+
+                                <p className=" text-darken-3 ">If your looking for someone to develop an Android or web application for you LOOK NO FURTHER.</p>
+                                <p className=" text-darken-3 ">Send me a message through the contact page.</p>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+        {/*            <div className="row center RussoOne">*/}
+        {/*                <div className="col s4 ">*/}
+        {/*                    <div className="card  hoverable">*/}
+        {/*                        <div className="card-image">*/}
+        {/*                            <img src={github} alt=""/>*/}
+        {/*                        </div>*/}
+        {/*                        <div className="card-content center-align">*/}
+        {/*                            <a  href="https://github.com/Alphonso74">My Projects!</a>*/}
+
+        {/*                        </div>*/}
+
+        {/*                    </div>*/}
+        {/*                </div>*/}
+
+
+
+        {/*                <div className="col s4 ">*/}
+        {/*                    <div className="card  hoverable">*/}
+        {/*                        <div className="card-image">*/}
+        {/*                            <img src={linkedIn} alt=""/>*/}
+        {/*                        </div>*/}
+        {/*                        <div className="card-content center-align">*/}
+        {/*                            <a className="center-align" href="https://www.linkedin.com/in/alphonso-mckenzie-a32440189/">Lets Connect!</a>*/}
+
+        {/*                        </div>*/}
+
+        {/*                    </div>*/}
+        {/*                </div>*/}
+
+
+
+        {/*                    <div className="col s4">*/}
+        {/*                        <div className="card  hoverable">*/}
+        {/*                            <div className="card-image">*/}
+        {/*                                <img src={youtube} alt=""/>*/}
+        {/*                            </div>*/}
+        {/*                            <div className="card-content center-align">*/}
+        {/*                                <a className="center-align" href="https://www.youtube.com/">My Videos!</a>*/}
+
+        {/*                            </div>*/}
+
+        {/*                        </div>*/}
+        {/*                    </div>*/}
+
+
+        {/*        </div>*/}
+        {/*        </div>*/}
+
+                <div className="parallax-container ">
+                    <div className="parallax "><img src={car2} alt={"James Harden"}/></div>
+                </div>
+
+
+                {/*<div className="section blue">*/}
+                {/*    <div className="col  container">*/}
+
+                {/*        <h1 className=" row s12 RussoOne center-align">About Me</h1>*/}
+
+                {/*        <div className="row s12 RussoOne">*/}
+                {/*            <div className="col s6 ">*/}
+
+                {/*                    <img className="circle responsive-img" src={photo3} alt=""/>*/}
+
+                {/*            </div>*/}
+
+
+                {/*        <div className="col s6 RussoOne center-align">*/}
+
+
+                {/*            <p className="grey-text text-darken-3 lighten-3">Hi! I'm a recent Computer Science graduate from Penn State University, and an incoming Software Engineer at Accenture Federal Services.</p>*/}
+                {/*            <p className="grey-text text-darken-3 lighten-3">Home: Ellicott City, Maryland</p>*/}
+                {/*            <p className="grey-text text-darken-3 lighten-3">Education: Pennsylvania State University</p>*/}
+                {/*            <p className="grey-text text-darken-3 lighten-3">Bachelors Degree: Computer Science</p>*/}
+                {/*        </div>*/}
+
+                {/*        </div>*/}
+                {/*    </div>*/}
+
+
+                {/*</div>*/}
+
+
+                <div className="section grey">
+                    <div className="row container center-align">
+                        <div className="col s12 ">
+
+
+
+                            <h1 className="light RussoOne">My Links</h1>
                             <pre><code className="language-markup col s12">
         </code></pre>
                         </div>
@@ -55,8 +194,12 @@ class MainPage extends Component {
 
 
                     <div className="row center RussoOne">
+
                         <div className="col s4 ">
-                            <div className="card  hoverable">
+                            <div className="card  hoverable" onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href='https://github.com/Alphonso74';
+                            }}>
                                 <div className="card-image">
                                     <img src={github} alt=""/>
                                 </div>
@@ -71,7 +214,10 @@ class MainPage extends Component {
 
 
                         <div className="col s4 ">
-                            <div className="card  hoverable">
+                            <div className="card  hoverable" onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href='https://www.linkedin.com/in/alphonso-mckenzie-a32440189/';
+                            }}>
                                 <div className="card-image">
                                     <img src={linkedIn} alt=""/>
                                 </div>
@@ -85,55 +231,28 @@ class MainPage extends Component {
 
 
 
-                            <div className="col s4">
-                                <div className="card  hoverable">
-                                    <div className="card-image">
-                                        <img src={youtube} alt=""/>
-                                    </div>
-                                    <div className="card-content center-align">
-                                        <a className="center-align" href="https://www.youtube.com/">My Videos!</a>
-
-                                    </div>
+                        <div className="col s4">
+                            <div className="card  hoverable" onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href='https://www.youtube.com/playlist?list=PLW-hBvwtzj_6JMHwju6k46fW-G4k72AKp';
+                            }}>
+                                <div className="card-image">
+                                    <img src={youtube} alt=""/>
+                                </div>
+                                <div className="card-content center-align">
+                                    <a className="center-align" href="https://www.youtube.com/">My Videos!</a>
 
                                 </div>
-                            </div>
-
-
-                </div>
-                </div>
-
-                <div className="parallax-container ">
-                    <div className="parallax "><img src={car2} alt={"James Harden"}/></div>
-                </div>
-
-
-                <div className="section blue">
-                    <div className="col  container">
-
-                        <h1 className=" row s12 RussoOne center-align">About Me</h1>
-
-                        <div className="row s12 RussoOne">
-                            <div className="col s6 ">
-
-                                    <img className="circle responsive-img" src={photo3} alt=""/>
 
                             </div>
-
-
-                        <div className="col s6 RussoOne center-align">
-
-
-                            <p className="grey-text text-darken-3 lighten-3">Hi! I'm a recent Computer Science graduate from Penn State University, and an incoming Software Engineer at Accenture Federal Services.</p>
-                            <p className="grey-text text-darken-3 lighten-3">Home: Ellicott City, Maryland</p>
-                            <p className="grey-text text-darken-3 lighten-3">Education: Pennsylvania State University</p>
-                            <p className="grey-text text-darken-3 lighten-3">Bachelors Degree: Computer Science</p>
                         </div>
 
-                        </div>
+
                     </div>
-
-
                 </div>
+
+
+
 
 
                 <div className="parallax-container">
@@ -260,7 +379,7 @@ class MainPage extends Component {
                             </div>
                             <div className="col  s6 center-align">
                                 <h5 className="white-text">Back To Top</h5>
-                                <button onClick={this.executeScroll} className="waves-effect waves-light btn-large RussoOne grey ">To Top</button>
+                                <button onClick={this.executeScroll} className="waves-effect waves-light btn-large RussoOne grey hoverable ">To Top</button>
 
                             </div>
                         </div>
