@@ -266,13 +266,13 @@ class MainPage extends Component {
                             <p className="grey-text text-darken-3 lighten-3">Listed are some of the development skills I've picked up over the years</p>
 
                             <ul className="collection grey">
-                                <li className="collection-item">Java (4 years)</li>
-                                <li className="collection-item">C++ (2 years)</li>
-                                <li className="collection-item">Database Management - SQL/Firebase/Room (2 year)</li>
-                                <li className="collection-item">Web Development – React, JavaScript, HTML (2 years)</li>
-                                <li className="collection-item">Mobile Development – Android, Android Studio (2 year)</li>
-                                <li className="collection-item">.NET (2 months)</li>
-                                <li className="collection-item">MIPS – Assembly Language (2 year)</li>
+                                <li className="collection-item hoverable ">Java (4 years)</li>
+                                <li className="collection-item hoverable">C++ (2 years)</li>
+                                <li className="collection-item hoverable">Database Management - SQL/Firebase/Room (2 year)</li>
+                                <li className="collection-item hoverable">Web Development – React, JavaScript, HTML (2 years)</li>
+                                <li className="collection-item hoverable">Mobile Development – Android, Android Studio (2 year)</li>
+                                <li className="collection-item hoverable">.NET (2 months)</li>
+                                <li className="collection-item hoverable">MIPS – Assembly Language (2 year)</li>
 
                             </ul>
 
