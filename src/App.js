@@ -24,8 +24,8 @@ class App extends Component {
           <Switch>
 
               {/*<Route path="/auth"  component={}/>*/}
-              <Route path="/" exact component={LandingPage}/>
-              <Route path="/mainpage" exact component={MainPage}/>
+              <Route path="/" exact component={MainPage}/>
+              {/*<Route path="/mainpage" exact component={MainPage}/>*/}
               <Route path="/resume" exact component={Resume}/>
               <Route path="/blog" exact component={Blog}/>
               <Route path="/contact" exact component={ContactMe}/>

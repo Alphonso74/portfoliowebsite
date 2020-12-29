@@ -1,11 +1,14 @@
 import React from 'react';
 import './BlogCSS.css';
+import Spinner from '../../Components/UI/Spinner';
+
 
 const BlogTile = (props) => {
 
     // console.log("poop");
 
-    const { title, link, thumbnail, content, pubDate } = props.blogData;
+
+    const { title, link, thumbnail, content, pubDate, status } = props.blogData;
 
     function cleanTitle(checkTitle) {
         checkTitle = checkTitle.replace("amp;", "");
@@ -33,6 +36,9 @@ const BlogTile = (props) => {
     }
 
     function blogPost() {
+
+        console.log(props.status + ' poop');
+
         return (<div className="row s12 ">
             <div className="col s12 center  ">
 
@@ -72,10 +78,11 @@ const BlogTile = (props) => {
 
     }
 
-    return (
+    return props.status === null ? <Spinner/> : (
         <div >
             {blogPost()}
         </div>
+
     );
 }
 

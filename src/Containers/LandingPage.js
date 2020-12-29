@@ -35,7 +35,7 @@ class LandingPage extends Component {
             <div className="slider fullscreen">
                 <ul className="slides">
                     <li>
-                        <img alt="image 1" src={photo3}/>
+                        <img className="responsive-img" alt="image 1" src={photo3}/>
                             <div className="caption center-align">
                                 <h2 className="black-text RussoOne">Welcome To My Website!</h2>
                                 {/*<h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>*/}
@@ -58,7 +58,7 @@ class LandingPage extends Component {
                     {/*        </div>*/}
                     {/*</li>*/}
                     <li>
-                        <img alt="image 2" src={photo4}/>
+                        <img className="responsive-img" alt="image 2" src={photo4}/>
                             <div className="caption right-align">
                                 <h2 className="black-text RussoOne">Welcome To My Website!</h2>
 

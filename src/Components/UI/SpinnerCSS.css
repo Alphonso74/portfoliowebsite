@@ -1,24 +1,60 @@
 
-.Spinnerborder {
-    margin-top: 10%;
-    display: inline-block;
-    width: 4rem;
-    height: 4rem;
-    vertical-align: text-bottom;
-    border: .25em solid currentColor;
-    border-right-color: transparent;
-    border-radius: 50%;
-    -webkit-animation: spinner-border .75s linear infinite;
-    animation: spinner-border .75s linear infinite;
+.Loader,
+.Loader:before,
+.Loader:after {
+    background: #a7aeb4;
+    -webkit-animation: load1 1s infinite ease-in-out;
+    animation: load1 1s infinite ease-in-out;
+    width: 1em;
+    height: 4em;
 }
-
-@keyframes spinner-border {
-    to {
-        transform: rotate(360deg);
+.Loader {
+    color: #a7aeb4;
+    text-indent: -9999em;
+    margin: 88px auto;
+    position: relative;
+    font-size: 11px;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+.Loader:before,
+.Loader:after {
+    position: absolute;
+    top: 0;
+    content: '';
+}
+.Loader:before {
+    left: -1.5em;
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+.Loader:after {
+    left: 1.5em;
+}
+@-webkit-keyframes load1 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 0;
+        height: 4em;
+    }
+    40% {
+        box-shadow: 0 -2em;
+        height: 5em;
     }
 }
-
-.center {
-    text-align: center;
-    margin: 5rem auto;
+@keyframes load1 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 0;
+        height: 4em;
+    }
+    40% {
+        box-shadow: 0 -2em;
+        height: 5em;
+    }
 }

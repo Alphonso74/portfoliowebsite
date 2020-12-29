@@ -29,6 +29,10 @@ class MainPage extends Component {
 
     render() {
 
+        document.addEventListener("visibilitychange", function() {
+            console.log( document.visibilityState );
+            // Modify behavior...
+        })
         return (
             <div>
 

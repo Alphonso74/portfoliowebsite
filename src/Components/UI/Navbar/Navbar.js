@@ -30,7 +30,7 @@ class Navbar extends Component{
                         <i className="material-icons">menu</i></a>
                         <ul className="right hide-on-med-and-down ">
                             <div className="Langar ">
-                                <li className="active" ><NavLink to='/mainpage' exact >Home</NavLink></li>
+                                <li className="active" ><NavLink to='/' exact >Home</NavLink></li>
                                 <li ><NavLink to='/resume' exact >Resume</NavLink></li>
                                 <li ><NavLink to='/blog' exact >Blog</NavLink></li>
                                 <li ><NavLink to='/contact' exact >Contact</NavLink></li>
@@ -44,7 +44,7 @@ class Navbar extends Component{
                 </nav>
 
                 <ul className="sidenav sidenav-close grey" id="mobile-demo">
-                    <li><NavLink to='/mainpage' exact >Home</NavLink></li>
+                    <li><NavLink to='/' exact >Home</NavLink></li>
                     <li><NavLink to='/resume' exact >Resume</NavLink></li>
                     <li><NavLink to='/blog' exact >Blog</NavLink></li>
                     <li><NavLink to='/contact' exact >Contact</NavLink></li>
