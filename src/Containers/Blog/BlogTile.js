@@ -35,6 +35,14 @@ const BlogTile = (props) => {
         return `Published: ${dateArray.join("/")}`;
     }
 
+    function executeScroll()
+    {
+        window.scrollTo({
+
+            top: 0,
+            behavior: "smooth"
+        });
+    }
     function blogPost() {
 
         console.log(props.status + ' poop');
@@ -74,6 +82,10 @@ const BlogTile = (props) => {
                     </div>
             </div>
                 </div>
+
+            <div className="center-align s12">
+                <button onClick={() => executeScroll()} className="waves-effect waves-light btn-large RussoOne grey hoverable ">To Top</button>
+            </div>
         </div>)
 
     }

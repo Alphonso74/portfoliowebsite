@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2055e86-795f-4322-8151-b81d5cd67619" name="Default Changelist" comment="Skill section color hovering">
+    <list default="true" id="f2055e86-795f-4322-8151-b81d5cd67619" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Blog/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Blog/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Blog/BlogTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Blog/BlogTile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/MainPageCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainPageCSS.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,6 +122,7 @@
       <workItem from="1608215359441" duration="28034000" />
       <workItem from="1608786776912" duration="20286000" />
       <workItem from="1609278012598" duration="166000" />
+      <workItem from="1609278324660" duration="1708000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1607445701734</created>
@@ -248,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609269033768</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Skill section color hovering">
+      <created>1609278359118</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609278359118</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -5,6 +5,8 @@ import Navbar from "../../Components/UI/Navbar/Navbar";
 import Spinner from '../../Components/UI/Spinner';
 
 
+
+
 const Blog = () => {
 
 
@@ -30,7 +32,14 @@ const Blog = () => {
         })
     }
 
+    function executeScroll()
+    {
+        window.scrollTo({
 
+            top: 0,
+            behavior: "smooth"
+        });
+    }
 
     return (
 
@@ -48,6 +57,10 @@ const Blog = () => {
             <div >
             {displayBlogs()}
             </div>
+
+            {/*<div className="center-align s12">*/}
+            {/*<button onClick={() => executeScroll()} className="waves-effect waves-light btn-large RussoOne grey hoverable ">To Top</button>*/}
+            {/*</div>*/}
 
 
         </div>

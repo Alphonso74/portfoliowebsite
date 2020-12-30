@@ -25,7 +25,10 @@ class MainPage extends Component {
 
     }
 
-    executeScroll = () => window.scrollTo(0, 0);
+    executeScroll = () => window.scrollTo({
+
+        top: 0,
+        behavior: "smooth"});
 
     // Github = () => {
     //
@@ -64,17 +67,18 @@ class MainPage extends Component {
                 <div className="section blue">
                     <div className="col  container">
 
-                        <h1 className=" row s12 RussoOne center-align">About Me</h1>
+                        {/*<h1 className=" row s12 RussoOne center-align">About Me</h1>*/}
 
-                        <div className="row s12 RussoOne">
-                            <div className="col s6 ">
+                        <div className="col s12 RussoOne">
+                            <div className="col s4 ">
 
                                 <img className="circle responsive-img" src={photo3} alt=""/>
 
                             </div>
 
 
-                            <div className="col s6 RussoOne center-align ">
+                            <div className="col s8 RussoOne center-align ">
+                                <h1 className=" row s12 RussoOne center-align">About Me</h1>
 
 
                                 <p className=" text-darken-3">Home: Ellicott City, Maryland</p>
