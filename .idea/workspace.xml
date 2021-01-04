@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2055e86-795f-4322-8151-b81d5cd67619" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Containers/ContactMeCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Navbar/NavbarCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UI/Navbar/NavbarCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/Blog/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Blog/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Blog/BlogCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Blog/BlogCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/Blog/BlogTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Blog/BlogTile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/ContactMe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/MainPageCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainPageCSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Resume.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/ResumeCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/ResumeCSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +130,8 @@
       <workItem from="1608215359441" duration="28034000" />
       <workItem from="1608786776912" duration="20286000" />
       <workItem from="1609278012598" duration="166000" />
-      <workItem from="1609278324660" duration="1708000" />
+      <workItem from="1609278324660" duration="1974000" />
+      <workItem from="1609425460087" duration="9212000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1607445701734</created>
@@ -257,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609278359118</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="done for now">
+      <created>1609362512924</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609362512924</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +313,7 @@
     <MESSAGE value="some More!" />
     <MESSAGE value="MORE MORE MORE !" />
     <MESSAGE value="Skill section color hovering" />
-    <option name="LAST_COMMIT_MESSAGE" value="Skill section color hovering" />
+    <MESSAGE value="done for now" />
+    <option name="LAST_COMMIT_MESSAGE" value="done for now" />
   </component>
 </project>

@@ -42,16 +42,21 @@ class MainPage extends Component {
             // Modify behavior...
         })
         return (
-            <div>
+            <body>
 
+                <header>
                 <Navbar />
+                </header>
 
 
 
 
-                <div className="section grey">
+
+                <main>
+                    <div className="grey">
+                <div className="section ">
                     <div className="row container center-align">
-                        <div className="col s12 ">
+                        <div className="col s12  ">
 
                             <h2 className="header RussoOne">Welcome To My Website</h2>
                             <h5 className="grey-text text-darken-3 lighten-3 RussoOne">Take a look around!</h5>
@@ -64,7 +69,7 @@ class MainPage extends Component {
                 </div>
 
 
-                <div className="section blue">
+                <div className="section ">
                     <div className="col  container">
 
                         {/*<h1 className=" row s12 RussoOne center-align">About Me</h1>*/}
@@ -97,6 +102,8 @@ class MainPage extends Component {
 
 
                 </div>
+                    </div>
+
 
 
 
@@ -290,7 +297,7 @@ class MainPage extends Component {
                     <div className="parallax"><img src={ball} alt=""/></div>
                 </div>
 
-                <div className="section blue RussoOne">
+                <div className="section red RussoOne">
                     <div className="row container">
                         <div className="col s12 ">
                             <h2 className="header">Hobbies</h2>
@@ -371,6 +378,7 @@ class MainPage extends Component {
                         </div>
                     </div>
                 </div>
+                </main>
 
 
                 <footer className="page-footer black RussoOne">
@@ -389,9 +397,10 @@ class MainPage extends Component {
                         </div>
                     </div>
 
+
                 </footer>
 
-            </div>
+            </body>
         );
     }
 }

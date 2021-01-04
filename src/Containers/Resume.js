@@ -20,15 +20,17 @@ class Resume extends Component {
     render() {
 
         return (
-            <div>
+            <body>
 
 
-
+            <header>
             <Navbar/>
+            </header>
 
-                    <div className="center-align">
+            <main className="grey">
+                    <div className="center-align ">
 
-                        <div className="section grey RussoOne">
+                        <div className="section  RussoOne">
 
                             <h1>My Resume</h1>
 
@@ -39,9 +41,10 @@ class Resume extends Component {
 
                     </div>
                 </div>
+            </main>
 
 
-            </div>
+            </body>
         );
     }
 }

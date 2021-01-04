@@ -1,5 +1,5 @@
 import React from 'react';
-import './BlogCSS.css';
+// import './BlogCSS.css';
 import Spinner from '../../Components/UI/Spinner';
 
 
@@ -45,23 +45,23 @@ const BlogTile = (props) => {
     }
     function blogPost() {
 
-        console.log(props.status + ' poop');
+        // console.log(props.status + ' poop');
 
-        return (<div className="row s12 ">
-            <div className="col s12 center  ">
+        return (<div >
+            <div className="col s12 center m7 ">
 
 
 
                 <div className="card  ">
 
 
-                    <div className="card-title">
+                    <div className="card-title s12">
                     <h3 className="RussoOne">{cleanTitle(title)}</h3>
+                    </div>
 
-
-                    <div className="row s12 ">
-                <div className="card-image">
-                <img src={`${thumbnail}`} className="Image"  alt={cleanTitle(title)}></img>
+                    <div className="card-image s12 ">
+                <div >
+                <img src={`${thumbnail}`} className="responsive-img"  alt={cleanTitle(title)}/>
             </div>
                     </div>
                     <div className="row s12 ">
@@ -79,12 +79,12 @@ const BlogTile = (props) => {
             </div>
                     </div>
 
-                    </div>
+
             </div>
                 </div>
 
             <div className="center-align s12">
-                <button onClick={() => executeScroll()} className="waves-effect waves-light btn-large RussoOne grey hoverable ">To Top</button>
+                <button onClick={() => executeScroll()} className="waves-effect waves-light btn-large RussoOne black hoverable ">To Top</button>
             </div>
         </div>)
 
@@ -93,6 +93,7 @@ const BlogTile = (props) => {
     return props.status === null ? <Spinner/> : (
         <div >
             {blogPost()}
+
         </div>
 
     );

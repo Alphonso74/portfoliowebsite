@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Navbar from "../Components/UI/Navbar/Navbar";
 import M from 'materialize-css/dist/js/materialize.min';
-
+import './ContactMeCSS.css';
 class ContactMe extends Component {
 
 
@@ -136,10 +136,13 @@ class ContactMe extends Component {
         return (
 
 
-            <div>
+            <body>
 
+            <header>
                 <Navbar/>
+            </header>
 
+            <main>
                 <div className="section grey RussoOne">
                     <div className="row container center-align">
                         <div className="col s12 ">
@@ -196,10 +199,17 @@ class ContactMe extends Component {
                     </div>
 
                 </div>
+            </main>
+
+            {/*<footer className="page-footer white RussoOne">*/}
 
 
 
-            </div>
+
+            {/*</footer>*/}
+
+
+            </body>
         );
     }
 }

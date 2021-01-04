@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import BlogTile from './BlogTile';
 import Navbar from "../../Components/UI/Navbar/Navbar";
-// import "./BlogCSS.css";
+import "./BlogCSS.css";
 import Spinner from '../../Components/UI/Spinner';
 
 
@@ -44,11 +44,14 @@ const Blog = () => {
     return (
 
 
-        <div>
+        <body>
+        <header>
             <Navbar/>
+        </header>
 
             {/*<Spinner/>*/}
 
+            <main >
         <div className=" section grey center-align  ">
             <h1 className="RussoOne">My Medium Posts</h1>
             <br/>
@@ -57,13 +60,37 @@ const Blog = () => {
             <div >
             {displayBlogs()}
             </div>
+            </main>
 
             {/*<div className="center-align s12">*/}
             {/*<button onClick={() => executeScroll()} className="waves-effect waves-light btn-large RussoOne grey hoverable ">To Top</button>*/}
             {/*</div>*/}
 
+        <footer className="page-footer white RussoOne">
+            <div className="container">
+                <div className="row">
+                    <div className="col  s6 ">
+                        <h5 className="black-text">Is that it?....</h5>
 
-        </div>
+                        <p className="black-text text-lighten-4">Send me a message!</p>
+                    </div>
+                    <div className="col  s6 center-align">
+                        <h5 className="black-text">Medium Profile</h5>
+                        <button onClick={(e) => {
+                            e.preventDefault();
+                            window.location.href='https://alphonsomckenzieblog.medium.com/';
+                        }} className="waves-effect waves-light btn-large RussoOne black hoverable ">Profile</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </footer>
+
+
+
+        </body>
     );
 }
 
